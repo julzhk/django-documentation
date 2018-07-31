@@ -51,7 +51,7 @@ staticfiles would be better suited for this task. ::
     DOCUMENTATION_ROOT = '/path/to/docs/'
     DOCUMENTATION_ACCESS_FUNCTION = lambda user: user.is_staff
 
-The DOCUMENATION_ROOT is the root of your sphinx doc where the Makefile exists,
+The DOCUMENTATION_ROOT is the root of your sphinx doc where the Makefile exists,
 if you html docs is placed somewhere else than ``DOCUMENTATION_ROOT +
 '_build/html/'`` then you can override it with::
 
